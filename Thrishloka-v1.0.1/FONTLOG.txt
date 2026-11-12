@@ -1,0 +1,28 @@
+FONTLOG for Thrishloka
+Copyright (c) 2026, Sneha. Licensed under OFL-1.1; see OFL.txt.
+
+ABOUT
+Thrishloka is an AI-assisted regular semi-serif with slightly condensed
+proportions, gentle flares and restrained serif endings. The design was
+developed through visual previews and extended into an installable font.
+
+2026-11-12 — Release 1.0.1; internal font version 1.001
+- Prepared the initial free public preview under the SIL OFL 1.1.
+- Added copyright, full OFL text and license URL to font metadata.
+- Declared no Reserved Font Names.
+- Preserved the approved Regular glyph outlines and spacing.
+- Added WOFF2, website-use CSS and a rebuild path for both formats.
+- Included source artwork, build instructions and GitHub publishing steps.
+- Included validation results and SHA-256 checksums.
+
+2026-11-12 — Private version 1.000
+- Built the Regular font from approved/generated letterform references and
+  constructed symbols; mapped 233 Unicode characters.
+- Added kerning, accents, punctuation and tabular figures.
+- Named the font family Thrishloka.
+
+Known development work
+- Further review of automatically traced curves and outline economy.
+- Broader spacing and kerning refinement, and testing at small sizes.
+- Testing inside desktop Word on Mac and Windows.
+- Optional additional weights, scripts and font-editor source formats.

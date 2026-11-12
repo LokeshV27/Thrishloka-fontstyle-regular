@@ -1,0 +1,46 @@
+INSTALL THRISHLOKA REGULAR
+Copyright (c) 2026, Sneha. Licensed under OFL-1.1; see OFL.txt.
+
+Desktop file: fonts/ttf/Thrishloka-Regular.ttf
+Font menu name: Thrishloka
+Style: Regular
+Public release: 1.0.1; internal font version: 1.001
+
+MAC AND WORD
+1. Extract the downloaded ZIP.
+2. Quit Word completely with Command-Q.
+3. Open the fonts/ttf folder and double-click Thrishloka-Regular.ttf.
+4. Click Install in the preview/Font Book window.
+5. Reopen Word and create a blank document.
+6. Select Thrishloka in the Home tab's font menu.
+7. Leave Bold and Italic off. Choose 24 pt and type:
+   Current offers and more
+
+WINDOWS AND WORD
+1. Extract the ZIP and close Word.
+2. Double-click fonts/ttf/Thrishloka-Regular.ttf, then choose Install.
+3. Reopen Word and select Thrishloka from the font menu.
+
+UPDATING AN EARLIER THRISHLOKA INSTALLATION
+This release uses the same family name as the earlier private build.
+Use the operating system's replace/update option, or remove the older
+Thrishloka installation before installing this version, to avoid duplicates.
+Keep a backup of the earlier file if you need it. Restart Word afterward.
+
+IF IT DOES NOT APPEAR
+Check that Thrishloka is installed and enabled in Font Book on Mac or
+Fonts settings on Windows. Quit and reopen Word; restart the computer if
+needed. The WOFF2 file is for websites, not for desktop installation.
+
+USE AND SHARING
+Personal and commercial use are free under the OFL. Redistribute the font
+with OFL.txt and its copyright notice. Your own documents and designs do
+not need to be licensed under the OFL. The font has no embedding restrictions
+set in its metadata. Exporting a document to PDF helps preserve appearance
+when a recipient has not installed the font.
+
+Only Regular is provided. Bold and Italic buttons may synthesize styles.
+Characters outside the supported Latin set may be drawn using a fallback.
+
+Official Office installation reference:
+https://support.microsoft.com/en-us/office/fonts/download-and-install-custom-fonts-to-use-with-office

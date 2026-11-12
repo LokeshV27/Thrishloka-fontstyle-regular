@@ -1,0 +1,59 @@
+REBUILD THRISHLOKA 1.0.1
+Copyright (c) 2026, Sneha. Licensed under OFL-1.1; see OFL.txt.
+
+The source folder contains the build script and the exact three images used
+for outline construction. Keep the complete directory structure, including
+the root OFL.txt: the builder embeds that license into every generated font.
+
+REQUIREMENTS
+Python with venv and pip; dependencies listed in source/requirements.txt.
+For tested library versions, see BUILD-ENVIRONMENT.json. This records the
+environment used for verification, not a cross-platform dependency lockfile.
+
+MAC / LINUX
+Open Terminal in the extracted Thrishloka folder and run:
+
+  cd source
+  python3 -m venv .venv
+  .venv/bin/python -m pip install -r requirements.txt
+  .venv/bin/python build_font.py
+
+WINDOWS
+Open PowerShell in the extracted Thrishloka folder and run:
+
+  cd source
+  py -m venv .venv
+  .venv\Scripts\python.exe -m pip install -r requirements.txt
+  .venv\Scripts\python.exe build_font.py
+
+OUTPUTS
+  source/build/Thrishloka-Regular.ttf
+  source/build/Thrishloka-Regular.woff2
+  source/build/Thrishloka-Regular-specimen.png
+  source/build/font-details.json
+  source/build/character-set.txt
+
+Build outputs and local environments are ignored by the included .gitignore.
+They are not automatically copied into the release fonts/ or preview/ folders.
+
+DESIGN NOTES
+The approved Regular reference already represents the chosen condensed
+direction. Do not apply another 10% width reduction while rebuilding.
+The script uses image-specific glyph positions and measurements. Replacing
+an image without updating those measurements will not reliably work.
+
+The TTF outlines, metrics, cmap, kerning and OpenType layout produced by
+the included builder were compared with the packaged TTF. The byte-level
+font checksum can differ between rebuilds because of font timestamps and
+library versions; a source rebuild is not promised to be byte-for-byte
+identical across operating systems. WOFF2 compression may also vary.
+
+For intentional changes, update version metadata in build_font.py, increment
+the release number, update FONTLOG.txt, regenerate both formats, and run
+the validation steps recorded in VALIDATION.txt. The current sources are
+images plus Python code, not editable UFO or Glyphs masters.
+
+DEPENDENCIES
+External Python libraries are not included in this package. Their own
+licenses apply to those libraries; OFL.txt covers this project's font
+software, sources and documentation.

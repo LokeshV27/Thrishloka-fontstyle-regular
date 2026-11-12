@@ -1,0 +1,18 @@
+Thrishloka 1.0.1 — Free OFL Public Preview
+
+Thrishloka Regular is now available free for personal and commercial use
+under the SIL Open Font License 1.1, credited to Sneha, India.
+
+Includes:
+- Installable TTF and WOFF2 web font.
+- Uppercase and lowercase English letters, numbers, punctuation, Latin
+  accents and selected symbols: 233 Unicode mappings.
+- Source artwork and a rebuild script.
+- Installation instructions, specimen and license.
+
+This is an initial AI-assisted public preview. Some outlines were traced
+automatically; further curve and spacing refinements are welcome. It is
+not a Google Fonts-approved release. Only Regular is included.
+
+Download the attached Thrishloka-v1.0.1-OFL.zip for the complete package.
+Read README.md, INSTALL.txt and OFL.txt before redistributing.

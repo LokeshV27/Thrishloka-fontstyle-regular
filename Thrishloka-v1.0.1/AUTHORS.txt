@@ -1,0 +1,12 @@
+Thrishloka
+Publisher / credited creator: Sneha, India
+Copyright (c) 2026, Sneha.
+Licensed under the SIL Open Font License, Version 1.1. See OFL.txt.
+
+Design direction and approval: the requesting user.
+Image generation, outline construction, font engineering and documentation:
+AI-assisted work performed during the creation of this font.
+
+No affiliation with or endorsement by the reference brand is claimed.
+Provenance and known limitations are documented in SOURCE-NOTES.txt.
+No contact address or GitHub account name has been invented for the publisher.

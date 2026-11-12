@@ -1,0 +1,18 @@
+CONTRIBUTING TO THRISHLOKA
+Copyright (c) 2026, Sneha. Licensed under OFL-1.1; see OFL.txt.
+
+Useful work includes curve refinement, spacing and kerning improvements,
+Word testing on both operating systems, additional characters and better
+editable font-editor sources.
+
+Report issues with a short sample, application and operating-system version,
+font size and screenshot. State whether the issue affects TTF, WOFF2 or both.
+
+Before proposing a change, rebuild from source and render representative
+text. Keep source and binary changes consistent. Update FONTLOG.txt and
+describe the change in a pull request. Preserve copyright notices and OFL
+licensing for the font software. Add appropriate attribution for your work.
+Only contribute material you have the right to share under the OFL.
+
+No Reserved Font Names are declared. Modified versions must still follow
+the OFL and must not imply endorsement by the original publisher.

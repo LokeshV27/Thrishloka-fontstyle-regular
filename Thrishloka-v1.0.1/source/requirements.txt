@@ -1,0 +1,5 @@
+# Build dependencies; their own licenses apply.
+fonttools[woff]
+numpy
+opencv-python
+Pillow

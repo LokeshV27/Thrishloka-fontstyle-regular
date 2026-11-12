@@ -1,0 +1,27 @@
+USE THRISHLOKA ON A WEBSITE
+Copyright (c) 2026, Sneha. Licensed under OFL-1.1; see ../OFL.txt.
+
+Copy web/Thrishloka.css, fonts/web/Thrishloka-Regular.woff2 and OFL.txt to
+your website, preserving those relative folder paths. Then add:
+
+  <link rel="stylesheet" href="web/Thrishloka.css">
+  <h1 class="thrishloka">Current offers and more</h1>
+
+Or use font-family: "Thrishloka", Georgia, serif; in your own CSS after
+loading the stylesheet. Only the Regular 400 weight is supplied.
+
+The URL inside the stylesheet is resolved relative to the CSS file. If you
+move the files, update that URL. Use your own web hosting; a normal GitHub
+repository file page is not a font-file URL for production web hosting.
+
+For same-origin hosting, no cross-origin font setup is normally needed.
+If the font is hosted on a different domain, configure that server to
+allow the requesting website through its font-serving CORS policy.
+Serve WOFF2 using the font/woff2 MIME type.
+
+Keep OFL.txt and its copyright notice with redistributed font software.
+Using this font does not require your website content to be open source.
+The current WOFF2 file does not include a separate Bold or Italic design.
+
+Reference:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face

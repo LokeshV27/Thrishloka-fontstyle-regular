@@ -1,0 +1,142 @@
+PUBLISH THRISHLOKA FREE ON GITHUB — STEP BY STEP
+Release 1.0.1 | Prepared 12 November 2026
+Copyright (c) 2026, Sneha. Licensed under OFL-1.1; see OFL.txt.
+
+WHAT YOU HAVE
+
+Thrishloka-v1.0.1-OFL.zip is the complete free release package. It includes
+the TTF, WOFF2, SIL OFL 1.1 license, source artwork, build script, preview
+and documentation. The internal font name is Thrishloka and its internal
+version is 1.001. It is credited to Sneha, India.
+
+This guide explains how YOU can publish it. A GitHub repository has not
+been created for you. You do not need a paid GitHub plan for a public repo.
+
+PART A — PREPARE THE FILES
+
+1. Download Thrishloka-v1.0.1-OFL.zip and keep that ZIP unchanged. You will
+   attach it to the GitHub Release later.
+2. Extract it. Open the resulting Thrishloka-v1.0.1 folder.
+3. Confirm that OFL.txt, README.md, INSTALL.txt, fonts, source, preview and
+   web are visible inside. Read README.md and the release's known limits.
+4. Use this new OFL package. Do not mix in the earlier paid-license draft
+   or the older privately prepared font ZIPs.
+5. When uploading, use the CONTENTS of Thrishloka-v1.0.1, so README.md and
+   OFL.txt end up at the repository root, rather than inside an extra folder.
+
+PART B — CREATE A PUBLIC REPOSITORY
+
+6. Sign in at https://github.com, or create an account if needed.
+7. Visit https://github.com/new.
+8. Choose your account as the owner. Enter repository name: thrishloka
+9. Suggested description:
+   Thrishloka Regular — a free AI-assisted semi-serif font by Sneha,
+   released under the SIL Open Font License 1.1.
+10. Choose Public. Files committed here will be publicly accessible.
+11. Do not add an automatic README, .gitignore or license. These files are
+    already included in the package. In particular, do not select MIT,
+    Apache or another license as a replacement for OFL.txt.
+12. Click Create repository.
+
+PART C — UPLOAD THE PROJECT
+
+13. On the empty repository page, follow the link for uploading existing
+    files. In a repository with files, use Add file > Upload files.
+14. Drag the extracted folder's CONTENTS into the upload area, including
+    the fonts, source, preview and web folders. Preserve their structure.
+15. Include .gitignore if your file browser displays it. On Mac, press
+    Command-Shift-period to show hidden files. The font will still work
+    if this optional housekeeping file is missed.
+16. Wait for the uploads to finish. Enter a commit message such as:
+    Add Thrishloka 1.0.1 under OFL-1.1
+17. Commit to the main branch if offered. If GitHub instead creates a
+    proposed branch, open the pull request and merge it into main.
+18. Verify that README.md renders on the repository home page and its
+    specimen image appears. Open OFL.txt and check the Sneha copyright.
+    Confirm fonts/ttf/Thrishloka-Regular.ttf is present.
+
+PART D — CREATE THE DOWNLOAD RELEASE
+
+19. Open the repository's Releases section, then create a new release
+    using Draft a new release or the equivalent first-release button.
+20. Choose a new tag: v1.0.1. Target the main branch containing the upload.
+21. Use this release title:
+    Thrishloka 1.0.1 — Free OFL Public Preview
+22. Paste the contents of RELEASE-NOTES.txt into the description.
+23. In the release-asset upload area, attach the original file:
+    Thrishloka-v1.0.1-OFL.zip
+    Attach the complete ZIP rather than only the TTF, so downloaders
+    receive the license and instructions along with the font.
+24. Select This is a pre-release for this initial public preview. This
+    accurately signals that broader typography review is still welcome.
+    The font remains publicly downloadable and free under the OFL.
+25. Wait until the ZIP attachment finishes uploading. Click Publish release.
+    If immutable releases are enabled, attach all files before publishing.
+
+PART E — CHECK AND SHARE
+
+26. Open the repository and the release link in a private/incognito window
+    while signed out. Confirm the project is public and the ZIP downloads.
+27. Download that uploaded ZIP, extract it, and check that OFL.txt and the
+    TTF are present. Install the TTF and select Thrishloka in Word.
+28. Share the release link. Replace YOUR-USERNAME with your actual account:
+    https://github.com/YOUR-USERNAME/thrishloka/releases/tag/v1.0.1
+29. The project home page will be:
+    https://github.com/YOUR-USERNAME/thrishloka
+    YOUR-USERNAME is a placeholder, not a working link supplied for Sneha.
+30. Because this is marked as a pre-release, share its specific tag URL.
+    A /releases/latest URL may omit pre-releases.
+31. Optionally add relevant topics, such as font, typography and ofl, in
+    the repository's About settings. Share the public link with a specimen.
+
+No GitHub Pages setup is needed just to provide downloads. Creating a
+separate preview website or submitting to Google Fonts can happen later.
+
+WHAT FREE UNDER OFL MEANS
+
+Anyone may use Thrishloka for personal and commercial designs, and may
+modify and redistribute the font software under OFL conditions. Keep the
+copyright and license with redistributed fonts. Font software cannot be
+sold by itself. Documents and designs made with it do not need to adopt
+the OFL. No Reserved Font Names are declared in this release.
+
+The permissions already granted for an OFL-released version cannot later
+be withdrawn merely because you change your business model. The complete
+license is in OFL.txt; this short explanation does not replace it.
+
+UPDATES
+
+For later changes, rebuild both formats and update version metadata,
+FONTLOG.txt and the documentation. Use a new version and tag, such as
+v1.0.2, and a new ZIP name. Do not silently replace a previously released
+font under the same tag. When a version has received broader review, it
+can be published as a normal release rather than a pre-release.
+
+TROUBLESHOOTING
+
+- README does not show: it may be inside an extra enclosing folder. Put
+  README.md and OFL.txt at the repository root.
+- No download asset: GitHub's automatic Source code ZIP is separate from
+  the complete ZIP you attach. Attach Thrishloka-v1.0.1-OFL.zip as an asset.
+- Font absent in Word: fully quit Word, install the TTF, then reopen it.
+  The WOFF2 file is for websites.
+- Duplicate font: use Font Book or Windows Fonts settings to replace the
+  older Thrishloka installation with this version.
+- GitHub does not show a license badge: OFL.txt remains the authoritative
+  license; do not add a conflicting license to obtain a badge.
+
+OFFICIAL REFERENCES
+
+Creating a repository:
+https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+Uploading files:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+Creating releases:
+https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
+Applying the OFL:
+https://openfontlicense.org/how-to-apply-the-ofl/
+OFL permissions and permanence:
+https://openfontlicense.org/ofl-faq/
+
+Button wording may vary with GitHub interface updates. No account password,
+access token or payment information is required in this release package.

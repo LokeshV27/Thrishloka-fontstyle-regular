@@ -1,0 +1,46 @@
+THRISHLOKA — PROVENANCE AND SCOPE
+Copyright (c) 2026, Sneha. Licensed under OFL-1.1; see OFL.txt.
+
+DESIGN HISTORY
+The publisher supplied a screenshot described as a Singapore Airlines
+website heading and requested a distinct font with similar neatness.
+Five AI-generated visual concepts were explored. The fifth concept was
+selected, narrowed during the visual-design stage, and given a lighter
+Regular-weight interpretation. The original third-party screenshot is
+not included in this release, and no affiliation or endorsement is claimed.
+
+The included approved-regular-reference.png is the generated Regular
+lettering specimen, not the original third-party screenshot. Separate
+AI-generated uppercase and lowercase sheets extended the design.
+
+FONT CONSTRUCTION
+The script segments the supplied artwork, traces contours, fits curves,
+converts them to TrueType quadratic outlines and normalizes measurements.
+Several central glyphs and the numerals come directly from the approved
+Regular specimen. Other letters come from the extension sheets. Punctuation
+and many symbols are constructed as outlines; accents use components.
+No existing third-party font binary is included as a base font.
+
+PUBLIC LICENSE SCOPE
+Sneha has selected the SIL Open Font License 1.1 for this release.
+The packaged fonts, generated source images, script, specimen and project
+documentation are the Font Software distributed under the root OFL.txt.
+No Reserved Font Names are declared. External build dependencies are not
+bundled and are not relicensed by this package.
+
+The release is explicitly AI-assisted and includes automatic tracing.
+No claim is made that the font is unlike every pre-existing typeface, that
+the name has been cleared as a trademark, or that a court has determined
+copyright protection for every component. OFL.txt contains the applicable
+license and warranty disclaimer.
+
+CURRENT LIMITATIONS
+Regular only; Latin-focused character set; no full professional type-design
+audit; no Google Fonts approval; no native Bold or Italic. The build passes
+the checks in VALIDATION.txt, but broader typography and application testing
+and further outline refinement remain useful contributions.
+
+Official OFL text used for this release:
+https://openfontlicense.org/documents/OFL.txt
+Only the example copyright/RFN header was replaced with the publisher's
+copyright notice. The license body is unchanged.

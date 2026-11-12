@@ -1,0 +1,10 @@
+Thrishloka source artwork
+Copyright (c) 2026, Sneha.
+Licensed under the SIL Open Font License 1.1; see ../../OFL.txt.
+
+approved-regular-reference.png: AI-generated approved Regular specimen.
+uppercase-source.png: AI-generated uppercase extension sheet.
+lowercase-source.png: AI-generated lowercase extension sheet.
+
+These are production sources for the font, not screenshots of another
+font's installed binary. See ../../SOURCE-NOTES.txt for design history.

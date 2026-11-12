@@ -1,0 +1,14 @@
+/* Copyright (c) 2026, Sneha. OFL-1.1; see ../OFL.txt. */
+@font-face {
+  font-family: "Thrishloka";
+  src: url("../fonts/web/Thrishloka-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.thrishloka {
+  font-family: "Thrishloka", Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
+}

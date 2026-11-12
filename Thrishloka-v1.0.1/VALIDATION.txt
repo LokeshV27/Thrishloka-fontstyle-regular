@@ -1,0 +1,37 @@
+THRISHLOKA 1.0.1 — VALIDATION RECORD
+Copyright (c) 2026, Sneha. Licensed under OFL-1.1; see OFL.txt.
+Checks performed 12 November 2026.
+
+PASSED
+- TTF parses with FontTools and has the required TrueType tables.
+- Complete-font SFNT checksum equals the required 0xB1B0AFBA value.
+- Family name Thrishloka; Regular weight 400; internal version 1.001.
+- 233 Unicode mappings, 236 glyphs, complete printable ASCII and Latin-1.
+- All 206 visible supported characters shape in HarfBuzz without .notdef.
+- Original approved glyph outlines, advances, cmap, GPOS, GSUB and kerning
+  tables match the earlier Thrishloka build; this release changes metadata
+  and distribution format, not the approved letter shapes.
+- Packaged TTF, rebuilt TTF and WOFF2 contain Sneha's copyright, the full
+  matching OFL.txt content in the license field, and the official license URL.
+- The font embedding-permission field is unrestricted (fsType = 0).
+- The included source script rebuilds the same glyph, metric, character-map
+  and OpenType layout data as the packaged TTF.
+- Decoded WOFF2 glyph coordinates, contour endpoints, advances and cmap
+  match the packaged TTF.
+- macOS CoreText loads the TTF by its intended PostScript name and maps
+  all 104 characters in a native-engine sample without substitution.
+  This used process-scope registration, not a system-wide installation.
+- The actual-font FreeType specimen was rendered and visually inspected.
+- Earlier glyph-bound checks found vertical extents within declared metrics;
+  glyph data is unchanged in this release.
+- Release archive integrity, file hashes and local README links checked.
+
+NOT CLAIMED
+- Google Fonts approval or FontBakery/googlefonts-profile certification.
+- A full professional type-design, originality or legal-rights audit.
+- Direct testing in desktop Microsoft Word on Windows or Mac.
+- Broad browser/device testing of the WOFF2 font.
+- Coverage beyond the published character list or native Bold/Italic styles.
+
+The fonts are suitable for an initial public preview with the limitations
+described in README.md and SOURCE-NOTES.txt. Reports and refinements are welcome.
